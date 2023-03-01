@@ -1,0 +1,10 @@
+.todoList {
+	&__table {
+		width: 500px;
+		border-collapse: collapse;
+	}
+	&__columnName {
+		background-color: rgb(177, 177, 177);
+		border: 1px solid black;
+	}
+}

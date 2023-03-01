@@ -1,0 +1,21 @@
+.todoList {
+	cursor: pointer;
+	&:hover {
+		background-color: rgb(234, 234, 234);
+	}
+	td {
+		border: 1px solid #000000;
+		max-width: 70px;
+		&:not(:first-child) {
+			text-align: center;
+			overflow: hidden;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			max-width: 20px;
+		}
+	}
+	&__checkbox {
+		cursor: pointer;
+	}
+}
